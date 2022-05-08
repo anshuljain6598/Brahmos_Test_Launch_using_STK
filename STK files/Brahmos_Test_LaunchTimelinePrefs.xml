@@ -1,0 +1,19 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "12.1.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "Brahmos_Test_Launch AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Brahmos_Test_Launch" Type = "IntervalList">
+                <Interval Name = "Brahmos_Test_Launch AvailabilityIntervals" StartTime = "15 Dec 2020 06:30:00.000" StopTime = "16 Dec 2020 06:30:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Ship-INS_Himgiri-To-Missile-Brahmos AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Brahmos_Test_Launch/Ship/INS_Himgiri;/Application/STK/Scenario/Brahmos_Test_Launch/Missile/Brahmos" Type = "IntervalList">
+                <Interval Name = "Ship-INS_Himgiri-To-Missile-Brahmos AccessIntervals" StartTime = "15 Dec 2020 06:30:02.870" StopTime = "15 Dec 2020 07:15:42.075" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Satish_Dhawan_Space_Center-To-Missile-Brahmos AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Brahmos_Test_Launch/Facility/Satish_Dhawan_Space_Center;/Application/STK/Scenario/Brahmos_Test_Launch/Missile/Brahmos" Type = "IntervalList">
+                <Interval Name = "Facility-Satish_Dhawan_Space_Center-To-Missile-Brahmos AccessIntervals" StartTime = "15 Dec 2020 06:30:00.000" StopTime = "15 Dec 2020 07:15:39.876" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/Brahmos_Test_Launch" GlobalStartOffset = "0.000000" GlobalStartTime = "15 Dec 2020 06:30:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "16 Dec 2020 06:30:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>
